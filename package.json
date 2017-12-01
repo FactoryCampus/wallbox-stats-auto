@@ -1,0 +1,23 @@
+{
+    "name": "fc-wallbox-auto-report",
+    "version": "1.0.0",
+    "main": "handler.js",
+    "keywords": [
+        "serverless",
+        "webtasks"
+    ],
+    "devDependencies": {
+        "@webtask/serverless-webtasks": "^1.0.1"
+    },
+    "author": "Marcus Weiner <marcus.weiner@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "csv-parse": "^2.0.0",
+        "luxon": "^0.2.3",
+        "mailgun-js": "^0.13.1",
+        "request": "^2.83.0",
+        "request-promise-native": "^1.0.5",
+        "xlsx": "^0.11.11"
+    }
+}
